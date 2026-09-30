@@ -6,8 +6,8 @@ const COACH = {
   name: 'Shammi Nasrin',
   title: 'Fitness & Beauty Coach',
   tagline: 'Empowering you to feel strong, radiant, and confident — inside and out.',
-  avatar: 'https://images.pexels.com/photos/25293894/pexels-photo-25293894.jpeg?auto=compress&cs=tinysrgb&h=600&w=600',
-  heroImg: 'https://images.pexels.com/photos/6496085/pexels-photo-6496085.jpeg?auto=compress&cs=tinysrgb&h=900&w=1400',
+  avatar: '/images/724660501_2971955846482420_8116819972441648722_n.jpg',
+  heroImg: '/images/724660501_2971955846482420_8116819972441648722_n.jpg',
   stats: [
     { value: '500+', label: 'Clients Coached' },
     { value: '8', label: 'Years Experience' },
@@ -26,42 +26,42 @@ const SERVICES = [
     icon: 'dumbbell',
     title: 'Personal Training',
     desc: '1-on-1 tailored workout programs designed around your body, goals, and schedule. Whether at the gym or home, I build routines that fit your life.',
-    img: 'https://images.pexels.com/photos/6392833/pexels-photo-6392833.jpeg?auto=compress&cs=tinysrgb&h=500&w=700',
+    img: '/images/724660501_2971955846482420_8116819972441648722_n.jpg',
   },
   {
     id: 'beauty-consultation',
     icon: 'sparkle',
     title: 'Beauty Consultation',
     desc: 'Personalized skincare and beauty guidance. I assess your skin type, goals, and routine to build a regimen that brings out your natural glow.',
-    img: 'https://images.pexels.com/photos/8128670/pexels-photo-8128670.jpeg?auto=compress&cs=tinysrgb&h=500&w=700',
+    img: '/images/740836795_2994962030848468_863764654042585760_n.jpg',
   },
   {
     id: 'nutrition-planning',
     icon: 'leaf',
     title: 'Nutrition Planning',
     desc: 'Sustainable, delicious meal plans that fuel your body without restriction. Learn to eat well for energy, muscle, and radiant skin.',
-    img: 'https://images.pexels.com/photos/8436641/pexels-photo-8436641.jpeg?auto=compress&cs=tinysrgb&h=500&w=700',
+    img: '/images/724666543_2973955346282470_2471922246791130499_n.jpg',
   },
   {
     id: 'group-classes',
     icon: 'users',
     title: 'Group Fitness Classes',
     desc: 'Join energizing small-group sessions that combine strength, cardio, and mobility. Build community while you build your body.',
-    img: 'https://images.pexels.com/photos/4853694/pexels-photo-4853694.jpeg?auto=compress&cs=tinysrgb&h=500&w=700',
+    img: '/images/724666543_2973955346282470_2471922246791130499_n.jpg',
   },
   {
     id: 'online-coaching',
     icon: 'video',
     title: 'Online Coaching',
     desc: 'Train with me from anywhere. Get personalized programming, weekly check-ins, and video form reviews — all through a simple app.',
-    img: 'https://images.pexels.com/photos/4854260/pexels-photo-4854260.jpeg?auto=compress&cs=tinysrgb&h=500&w=700',
+    img: '/images/742586549_2997910170553654_4237136769033653051_n.jpg',
   },
   {
     id: 'wellness-retreats',
     icon: 'sun',
     title: 'Wellness Retreats',
     desc: 'Immersive weekend retreats combining fitness, mindfulness, skincare workshops, and nature. Reset your body and mind in beautiful settings.',
-    img: 'https://images.pexels.com/photos/13849161/pexels-photo-13849161.jpeg?auto=compress&cs=tinysrgb&h=500&w=700',
+    img: '/images/740836795_2994962030848468_863764654042585760_n.jpg',
   },
 ]
 
@@ -70,29 +70,29 @@ const TESTIMONIALS = [
     name: 'Aaliyah Khan',
     role: 'Lost 15kg in 6 months',
     text: 'Shammi changed how I see fitness. She made it feel achievable and fun, not like a punishment. I have never felt stronger or more confident.',
-    avatar: 'https://images.pexels.com/photos/3762774/pexels-photo-3762774.jpeg?auto=compress&cs=tinysrgb&h=150&w=150',
+    avatar: '/images/740836795_2994962030848468_863764654042585760_n.jpg',
   },
   {
     name: 'Priya Sharma',
     role: 'Skincare client, 1 year',
     text: 'My skin has never looked better. Shammi built me a simple routine that actually works. I used to spend a fortune on products I did not need.',
-    avatar: 'https://images.pexels.com/photos/19274055/pexels-photo-19274055.jpeg?auto=compress&cs=tinysrgb&h=150&w=150',
+    avatar: '/images/724666543_2973955346282470_2471922246791130499_n.jpg',
   },
   {
     name: 'Sarah Mitchell',
     role: 'Online coaching client',
     text: 'Training remotely with Shammi is better than any gym I have joined. The personalized plan fits my schedule and the weekly check-ins keep me accountable.',
-    avatar: 'https://images.pexels.com/photos/30797177/pexels-photo-30797177.jpeg?auto=compress&cs=tinysrgb&h=150&w=150',
+    avatar: '/images/742586549_2997910170553654_4237136769033653051_n.jpg',
   },
 ]
 
 const GALLERY = [
-  { img: 'https://images.pexels.com/photos/6455911/pexels-photo-6455911.jpeg?auto=compress&cs=tinysrgb&h=400&w=400', tag: 'Training' },
-  { img: 'https://images.pexels.com/photos/8128690/pexels-photo-8128690.jpeg?auto=compress&cs=tinysrgb&h=400&w=400', tag: 'Beauty' },
-  { img: 'https://images.pexels.com/photos/8436448/pexels-photo-8436448.jpeg?auto=compress&cs=tinysrgb&h=400&w=400', tag: 'Wellness' },
-  { img: 'https://images.pexels.com/photos/4853322/pexels-photo-4853322.jpeg?auto=compress&cs=tinysrgb&h=400&w=400', tag: 'Training' },
-  { img: 'https://images.pexels.com/photos/8129916/pexels-photo-8129916.jpeg?auto=compress&cs=tinysrgb&h=400&w=400', tag: 'Beauty' },
-  { img: 'https://images.pexels.com/photos/8981374/pexels-photo-8981374.jpeg?auto=compress&cs=tinysrgb&h=400&w=400', tag: 'Wellness' },
+  { img: '/images/724660501_2971955846482420_8116819972441648722_n.jpg', tag: 'Training' },
+  { img: '/images/740836795_2994962030848468_863764654042585760_n.jpg', tag: 'Beauty' },
+  { img: '/images/724666543_2973955346282470_2471922246791130499_n.jpg', tag: 'Wellness' },
+  { img: '/images/724666543_2973955346282470_2471922246791130499_n.jpg', tag: 'Training' },
+  { img: '/images/742586549_2997910170553654_4237136769033653051_n.jpg', tag: 'Beauty' },
+  { img: '/images/740836795_2994962030848468_863764654042585760_n.jpg', tag: 'Wellness' },
 ]
 
 const SERVICE_OPTIONS = [
@@ -261,7 +261,7 @@ function About() {
       <div className="container">
         <div className="about-grid">
           <div className="about-image">
-            <img src="https://images.pexels.com/photos/6922159/pexels-photo-6922159.jpeg?auto=compress&cs=tinysrgb&h=700&w=560" alt="Shammi coaching" />
+            <img src="/images/742586549_2997910170553654_4237136769033653051_n.jpg" alt="Shammi coaching" />
             <div className="about-image-badge">
               <Icon name="check" size={20} />
               <span>Certified Coach</span>
